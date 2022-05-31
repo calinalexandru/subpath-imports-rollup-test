@@ -4,6 +4,7 @@
   "description": "testing node subpath imports with rollup node resolve",
   "main": "index.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
